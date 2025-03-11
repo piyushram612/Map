@@ -1,5 +1,5 @@
 // Initialize the map
-var map = L.map('map').setView([20.5937, 78.9629], 5); // Default view (India)
+var map = L.map('map').setView([17.3850, 78.4867], 12); // Default view (Hyderabad)
 
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '© OpenStreetMap contributors'
