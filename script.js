@@ -1,21 +1,22 @@
 // Initialize the map
-var map = L.map('map').setView([17.3850, 78.4867], 12); // Default view (Hyderabad)
+const map = L.map('map').setView([17.484, 78.389], 12);
 
+// Load and display tile layer on the map
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: '© OpenStreetMap contributors'
+    attribution: '&copy; OpenStreetMap contributors'
 }).addTo(map);
 
-// Fetch locations from JSON file and add them to the map
+// Load locations.json dynamically
 fetch("locations.json")
     .then(response => response.json())
-    .then(data => {
-        data.forEach(location => {
-            var marker = L.marker(location.coordinates).addTo(map)
-                .bindPopup(`<b>${location.place}</b>`);
-            
-            marker.on("click", function() {
-                document.getElementById("display-image").src = location.image;
-                document.getElementById("image-description").innerText = location.description;
+    .then(markers => {
+        markers.forEach(memory => {
+            const marker = L.marker(memory.coordinates).addTo(map);
+            marker.on("click", () => {
+                document.getElementById("memoryTitle").innerText = memory.place; // ✅ Fix: Update place name
+                document.getElementById("memoryImage").src = memory.image;
+                document.getElementById("memoryDescription").innerText = memory.description;
             });
         });
-    });
+    })
+    .catch(error => console.error("Error loading locations:", error));
