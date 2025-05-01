@@ -1,32 +1,57 @@
+/* General Page Styling */
 body {
     font-family: Arial, sans-serif;
+    background-color: #f7e9d7; /* A warm pastel background */
     text-align: center;
-    background-color: #fce4ec;
+    margin: 0;
+    padding: 0;
 }
 
+/* Header Styling */
 h1 {
-    color: #d81b60;
+    color: #b35e4d; /* Soft brown-red */
+    font-size: 2em;
+    padding: 20px 0;
 }
 
+/* Map Styling */
 #map {
-    height: 500px;
     width: 80%;
-    margin: auto;
+    height: 500px;
+    margin: 20px auto;
     border-radius: 10px;
+    border: 3px solid #b35e4d; /* Adds a stylish border */
 }
 
-#image-container {
-    margin-top: 20px;
+/* Memories Section */
+h2 {
+    color: #8d3c35;
 }
 
-#display-image {
-    width: 300px;
-    height: auto;
+h3 {
+    color: #444;
+    font-style: italic;
+}
+
+#memoryImage {
     border-radius: 10px;
-    box-shadow: 0px 0px 10px gray;
+    border: 3px solid #8d3c35;
+    margin-top: 10px;
+    width: 400px;
 }
 
-#image-description {
-    font-size: 18px;
-    color: #d81b60;
+p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+/* Mobile-Friendly */
+@media (max-width: 768px) {
+    #map {
+        width: 95%;
+    }
+    
+    #memoryImage {
+        width: 90%;
+    }
 }
