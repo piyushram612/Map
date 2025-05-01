@@ -1,16 +1,17 @@
 [
     {
-        "place": "sahibs barbeque",
-        "coordinates": [17.44172224910249, 78.37632101842333],
-        "image": "images/sahibs.jpg",
-        "description": "Done with third year"
-     },
-    {
         "place": "Gitam",
         "coordinates": [17.549853555972117, 78.16521728238607],
         "image": "images/gitam.jpg",
         "description": "the whole gang"
       },
+    {
+        "place": "sahibs barbeque",
+        "coordinates": [17.44172224910249, 78.37632101842333],
+        "image": "images/sahibs.jpg",
+        "description": "Done with third year"
+     },
+    
     {
         "place": "Palace 2",
         "coordinates": [17.540843743138097, 78.23233987726913],
