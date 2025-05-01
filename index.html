@@ -3,20 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Our Journey Together ❤️</title>
+    <title>Our Memories</title>
+    
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 </head>
 <body>
-    <h1>Our Journey Together ❤️</h1>
-    <div id="map"></div>
-    <div id="image-container">
-        <h2>Memories</h2>
-        <img id="display-image" src="" alt="Click a pin to see an image">
-        <p id="image-description"></p>
-    </div>
 
-    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <h1>Our Journey Together </h1>
+    
+    <!-- Map Container -->
+    <div id="map"></div>
+
+    <!-- Memories Section -->
+    <h2>Memories</h2>
+    <h3 id="memoryTitle">Click a pin to see details</h3> <!-- Place Name -->
+    <img id="memoryImage" src="images/placeholder.jpg" alt="Click a pin to see an image" width="400">
+    <p id="memoryDescription"></p>
+
+    <!-- JavaScript -->
     <script src="script.js"></script>
+
 </body>
 </html>

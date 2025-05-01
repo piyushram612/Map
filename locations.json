@@ -1,14 +1,63 @@
 [
     {
-        "place": "Forum Mall",
-        "coordinates": [17.4843575599486, 78.38956623202145],
-        "image": "images/colorsponge-carlos-mustang-test-5.jpg",
-        "description": "Our first date"
+        "place": "sahibs barbeque",
+        "coordinates": [17.44172224910249, 78.37632101842333],
+        "image": "images/sahibs.jpg",
+        "description": "Done with third year"
     },
     {
-        "place": "Fiitjee",
-        "coordinates": [17.494019770907567, 78.34856404871671],
-        "image": "images/dam.JPG",
-        "description": "The first time we met!!"
+        "place": "Gitam",
+        "coordinates": [17.549853555972117, 78.16521728238607],
+        "image": "images/gitam.JPG",
+        "description": "the whole gang"
+    },
+    {
+        "place": "Palace 2",
+        "coordinates": [17.540843743138097, 78.23233987726913],
+        "image": "images/palace2.JPG",
+        "description": "Checking out a new place"
+    },
+    {
+        "place": "Gitam ground",
+        "coordinates": [17.54809018621379, 78.16770066211485],
+        "image": "images/pramana25.JPG",
+        "description": "Its fest time"
+    },
+    {
+        "place": "barbeque holic",
+        "coordinates": [17.465441220571496, 78.36765934499789],
+        "image": "images/bbq holic.JPG",
+        "description": "Second year complete"
+    },
+    {
+        "place": "renao",
+        "coordinates": [17.452423786709186, 78.38528995571988],
+        "image": "images/renao.JPG",
+        "description": "Birthday Bash"
+    },
+    {
+        "place": "Sri Sathya Sai Nigamagamam",
+        "coordinates": [17.429673623858463, 78.43558819155463],
+        "image": "images/wedding.JPG",
+        "description": "wedding vibes"
+    },
+    {
+        "place": "the fishermans wharf",
+        "coordinates": [17.411174940203455, 78.33239192345762],
+        "image": "images/fishermans wharf.JPG",
+        "description": "Another day another birthday"
+    },
+    {
+        "place": "Bake Factory",
+        "coordinates": [17.463623758082505, 78.3084685307049],
+        "image": "images/bakefactory.JPG",
+        "description": "Bake factoryyyy"
+    },
+    {
+        "place": "Aqua Golf",
+        "coordinates": [17.412877403583952, 78.25171988353904],
+        "image": "images/aquagolf.JPG",
+        "description": "testing out our golfing ability"
     }
+
 ]
