@@ -8,55 +8,55 @@
     {
         "place": "Gitam",
         "coordinates": [17.549853555972117, 78.16521728238607],
-        "image": "images/gitam.JPG",
+        "image": "images/gitam.jpg",
         "description": "the whole gang"
     },
     {
         "place": "Palace 2",
         "coordinates": [17.540843743138097, 78.23233987726913],
-        "image": "images/palace2.JPG",
+        "image": "images/palace2.jpg",
         "description": "Checking out a new place"
     },
     {
         "place": "Gitam ground",
         "coordinates": [17.54809018621379, 78.16770066211485],
-        "image": "images/pramana25.JPG",
+        "image": "images/pramana25.jpg",
         "description": "Its fest time"
     },
     {
         "place": "barbeque holic",
         "coordinates": [17.465441220571496, 78.36765934499789],
-        "image": "images/bbq holic.JPG",
+        "image": "images/bbqholic.jpg",
         "description": "Second year complete"
     },
     {
         "place": "renao",
         "coordinates": [17.452423786709186, 78.38528995571988],
-        "image": "images/renao.JPG",
+        "image": "images/renao.jpg",
         "description": "Birthday Bash"
     },
     {
         "place": "Sri Sathya Sai Nigamagamam",
         "coordinates": [17.429673623858463, 78.43558819155463],
-        "image": "images/wedding.JPG",
+        "image": "images/wedding.jpg",
         "description": "wedding vibes"
     },
     {
-        "place": "the fishermans wharf",
+        "place": "the Fishermans wharf",
         "coordinates": [17.411174940203455, 78.33239192345762],
-        "image": "images/fishermans wharf.JPG",
-        "description": "Another day another birthday"
+        "image": "images/fishermanswharf.jpg",
+        "description": "Another day, another birthday"
     },
     {
         "place": "Bake Factory",
         "coordinates": [17.463623758082505, 78.3084685307049],
-        "image": "images/bakefactory.JPG",
+        "image": "images/bakefactory.jpg",
         "description": "Bake factoryyyy"
     },
     {
         "place": "Aqua Golf",
         "coordinates": [17.412877403583952, 78.25171988353904],
-        "image": "images/aquagolf.JPG",
+        "image": "images/aquagolf.jpg",
         "description": "testing out our golfing ability"
     }
 
